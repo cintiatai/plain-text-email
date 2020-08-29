@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap');
+
+body{
+  background-color: #F4F4F4;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: 'Rubik', sans-serif;
+}
+
+.vision{
+  margin: 30px;
+  font-weight: 700;
+}
+
+.mail-body{
+  background-color: #FFFFFF;
+  padding: 30px;
+  line-height: 20px;
+}
+
+.mail-body .mail-title {
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+p {
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.bold-paragraph,
+.name,
+.bold {
+  font-weight: 500;
+}
+
+.ceo-section{
+  display: flex;
+}
+
+.ceo-picture{
+  width: 75px;
+  height: 75px;
+  background-image: url("https://images.unsplash.com/photo-1597011769844-a0bb04c59b2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover; 
+  border-radius: 50px;
+}
+
+.ceo-name {
+ margin-left: 10px;
+}
+
+.name {
+  margin-bottom: 0;
+  padding-top: 15px;
+}
+
+.mail-footer{
+  padding: 30px;
+  line-height: 10px;
+  font-size: 13px;
+}
